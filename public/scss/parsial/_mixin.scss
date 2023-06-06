@@ -1,0 +1,11 @@
+
+
+
+@mixin flex( $dir,$jus,$w:100%,$h:100%,$a: center){
+  display: flex;
+  flex-direction: $dir;
+  justify-content: $jus;
+  align-items: $a;
+  width: $w;
+  height: $h;
+} 

@@ -1,0 +1,26 @@
+@use 'mixin' as mix;
+
+.form-artikel{
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  .cover-input-artikel{
+    
+    label{
+      margin-top: 20px;
+      margin-right: 20px;
+    }
+    div{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      justify-content: center;
+    }
+  }
+
+
+}
+
+.ck-editor__editable_inline{
+  min-height: 300px;
+}
