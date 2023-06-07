@@ -158,4 +158,11 @@ class Artikel extends BaseController
     }
 
 
+  public function asu()
+  {
+
+
+  }
+
+
 }

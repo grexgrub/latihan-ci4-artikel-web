@@ -3,11 +3,10 @@
 
 
 <?= $this->section('main') ?>
-<main>
-  <?= $this->include('layout/burgerMenu') ?>
+<?= $this->include('layout/sidebar') ?>
+<main id="main">
   <?= $this->include('layout/artikel_list') ?>
 </main>
-<?= $this->include('layout/offcanvas') ?>
 <?= $this->endSection() ?>
 
 

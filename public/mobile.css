@@ -1,0 +1,9 @@
+@import url(style.css)
+
+@media screen (max-width: 1000px) {
+  .sidebar{
+    display: flex;
+    width: 100vw;
+    height: 5rem; 
+  }
+}
